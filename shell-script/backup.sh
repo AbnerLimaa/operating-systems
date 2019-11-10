@@ -1,0 +1,1 @@
+zip -r `date +"%Y-%m-%d_%T"`.zip $(find * -mtime -1)

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Program {
 
     private static Scanner scanner = new Scanner(System.in);
-    private static ContaBancaria account1 = new ContaBancaria("1", 1000);
+    private static ContaBancaria account1 = new ContaBancaria("1", 0);
     private static ContaBancaria account2 = new ContaBancaria("2", 1000);
     private static ArrayList<Runnable> operations = new ArrayList<>();
 
